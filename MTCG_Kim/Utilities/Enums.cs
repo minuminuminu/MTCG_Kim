@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MTCG_Kim.Utilities
 {
-    internal class Enums
+    public enum ElementType
     {
+        Fire,
+        Water,
+        Normal
     }
 }
